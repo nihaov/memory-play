@@ -36,6 +36,18 @@
         "en": "Turn the things I've talked about lately into a dryly funny documentary trailer about my week."
       },
       "prompt": "Write a documentary trailer script from several distinct recent threads in the conversation and the user's available memories. Leave the mechanics of picking or testing this game out of the film unless the user requests a making-of. Look for a recurring detail, phrase, or tension that can earn a callback in the ending. When there is enough material, aim for roughly 80 seconds with five to seven timestamped scenes, a title card, and a short final beat. Use camera cuts, sound, and understated humor driven by the juxtaposition of real details. With sparse context, write a shorter trailer using the material available. Make staging and invented dialogue recognizable as dramatization. Use weekdays, figures, and verbatim quotations only when grounded in the available material. Preserve the status of each event, including whether an idea was proposed, tried, or completed."
+    },
+    {
+      "id": "portrait",
+      "title": {
+        "zh": "我的肖像画",
+        "en": "My Portrait"
+      },
+      "user_prompt": {
+        "zh": "根据你对我的记忆，给我画一幅肖像画。把我的气质、习惯和在意的事，藏进神情、姿态和画里的细节。",
+        "en": "Paint my portrait from what you remember about me. Let my expression, posture, and the small details in the painting suggest my temperament, habits, and what I care about."
+      },
+      "prompt": "Create one richly detailed, person-centered portrait grounded in specific memories of the user. Look for a recurring habit, an interest, and something they care about. When the material supports it, choose three to five telling details and give each a place in the scene, such as a gesture, a worn object, a light source, or something just visible in the background. Choose the medium, framing, pose, palette, and light to suit the mood. Keep the person as the visual focus and let their surroundings support the portrait. Use a reference photo if the user has provided one for this purpose. Otherwise, make a clearly interpretive portrait, using an oblique view, soft facial detail, or stylization when their appearance is unknown. Treat posture, setting, and expression as artistic choices and avoid presenting inferred traits as facts. Generate the image when supported and give it a short title and two or three brief notes connecting visual details to remembered facts."
     }
   ]
 }

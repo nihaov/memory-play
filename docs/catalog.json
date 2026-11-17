@@ -48,6 +48,42 @@
         "en": "Paint my portrait from what you remember about me. Let my expression, posture, and the small details in the painting suggest my temperament, habits, and what I care about."
       },
       "prompt": "Create one richly detailed, person-centered portrait grounded in specific memories of the user. Look for a recurring habit, an interest, and something they care about. When the material supports it, choose three to five telling details and give each a place in the scene, such as a gesture, a worn object, a light source, or something just visible in the background. Choose the medium, framing, pose, palette, and light to suit the mood. Keep the person as the visual focus and let their surroundings support the portrait. Use a reference photo if the user has provided one for this purpose. Otherwise, make a clearly interpretive portrait, using an oblique view, soft facial detail, or stylization when their appearance is unknown. Treat posture, setting, and expression as artistic choices and avoid presenting inferred traits as facts. Generate the image when supported and give it a short title and two or three brief notes connecting visual details to remembered facts."
+    },
+    {
+      "id": "personal-award",
+      "title": {
+        "zh": "给我颁个奖",
+        "en": "Give Me an Award"
+      },
+      "user_prompt": {
+        "zh": "根据你记得的一件关于我的真事，给我颁一个只有我会拿到的奖。越一本正经越好，要搞笑，带一点黑色幽默。",
+        "en": "Give me an award only I could win, based on one real thing you remember about me. Deliver it with an absolutely straight face and a touch of dark humor."
+      },
+      "prompt": "Stage a brief fictional award ceremony around one remembered incident or recurring habit. Give the user exactly one absurdly official award, a short citation that mentions a recognizable real detail, and one closing line such as an engraving or an imaginary acceptance speech. Use deadpan ceremony, disproportionate effort, an ironic outcome, or an absurd rule to drive the dark humor. Aim the sharpest line at what happened or the process around it. Prefer low-stakes material, and frame speeches, judges, and exaggerations as part of the invented ceremony."
+    },
+    {
+      "id": "personal-music",
+      "title": {
+        "zh": "我的专属配乐",
+        "en": "My Theme Music"
+      },
+      "user_prompt": {
+        "zh": "根据你对我的记忆，为我写一段专属配乐。把你记得的几个细节变成旋律、节奏或音色，让我听听它们合在一起是什么样。",
+        "en": "Compose a short piece of theme music from what you remember about me. Turn a few details into melody, rhythm, or timbre, and let me hear how they sound together."
+      },
+      "prompt": "Compose an original short instrumental cue around two or three specific remembered habits, places, or recurring interests. Translate each detail into an audible choice such as the pulse, a recurring melodic figure, or a change of texture. Choose the genre and tempo to suit the material, give the cue a clear opening, a variation, and an ending, and title it. Deliver playable audio whenever the host supports it, then name the audible choices in one or two short lines. Where only text can be delivered, give a concrete musical sketch with melody, rhythm, and instrumentation."
+    },
+    {
+      "id": "parallel-branch",
+      "title": {
+        "zh": "平行世界的支线",
+        "en": "A Parallel-Universe Side Quest"
+      },
+      "user_prompt": {
+        "zh": "从你记得的事里，挑一个我确实聊过、后来暂时搁下的念头。把它写成一则来自平行世界的小新闻，看看那个我顺手做了这件事以后，事情走到了哪一步。",
+        "en": "Pick an idea you remember me discussing and setting aside. Write a dispatch from the parallel universe where I went ahead with it, and show me where it led."
+      },
+      "prompt": "Pick one grounded fork, such as an idea the user set aside, an option they seriously considered, or a choice they nearly made. If you cannot tell whether they acted on it, say only that they discussed it. Name the real starting point in one sentence and then write a clearly fictional dispatch with a headline, a specific moment when the worlds diverge, and two or three believable consequences that grow into a surprising final detail. Keep the story short and borrow a recognizable object or habit from memory. Use understated humor and let the alternate outcome be mixed, strange, or inconvenient when it fits."
     }
   ]
 }

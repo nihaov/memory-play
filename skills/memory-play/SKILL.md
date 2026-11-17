@@ -1,9 +1,9 @@
 ---
 name: memory-play
-description: Play short creative games grounded in the agent's memories of the user. Use when asked for 熟人局, memory-play, a playful surprise based on memories, a portrait based on what the agent knows about the user, a picture of their inner world, ten personalized life suggestions, or a trailer based on recent chats.
+description: Play short creative games grounded in the agent's memories of the user. Use when asked for 记忆彩蛋, 熟人局, memory-play, or a personal game based on memory, such as a portrait, a documentary trailer, a darkly funny award, an original music cue, or a parallel-universe story.
 ---
 
-# 熟人局 · Memory Play
+# 记忆彩蛋 · Memory Play
 
 Use the user's language. Keep the interaction light.
 
@@ -27,3 +27,4 @@ If the activity uses a tool that displays its own result, show the quote in a us
 - When the request says “recently,” “this week,” or “what you know about me,” consider the recent topics available across the current conversation and the host's surfaced memories. Give priority to details that fit the activity and the requested time span, even if they came from a different chat. Use the conversation about building or testing this skill as material only when the user asks for that focus or it genuinely belongs among the other recent topics.
 - Use a few telling details. If the host has surfaced little or no memory, work from specific details the user has already shared in the current chat. If those are too thin for the chosen game, ask for one or two cues. A user can always choose which topics to include.
 - If the game calls for an image, use the host's image generation tool when available. Give it the visual scene with only the relevant details. When a tool is unavailable, provide a ready-to-use image prompt.
+- For the `personal-music` game, read [the music guide](references/music.md) for composition and audio delivery.

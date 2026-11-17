@@ -24,6 +24,9 @@ Try `memory-play list` to see every activity or `memory-play random` to draw one
 | Your Inner World | An imagined scene that brings together a few things you've shared. |
 | Your Week, the Documentary | A dryly funny trailer that finds a thread through your recent conversations. |
 | My Portrait | A portrait that captures your habits and interests through pose, lighting, and personal details. |
+| Give Me an Award | A deadpan ceremony for one real incident, complete with a darkly funny award citation. |
+| My Theme Music | An original instrumental cue that turns remembered details into rhythm, melody, and sound. Hosts with Python can render a simple WAV when a music tool is unavailable. |
+| A Parallel-Universe Side Quest | A fictional dispatch from the world where you followed through on an idea you once discussed. |
 
 Your agent shows the chosen activity's prompt before it starts. For example, **Your Inner World** opens with this line.
 

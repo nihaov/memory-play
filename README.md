@@ -1,33 +1,38 @@
-# 熟人局 · Memory Play
+[简体中文](README.zh-CN.md)
 
-用 Agent 对你的记忆，玩点只有你才懂的。
+# Memory Play · 记忆彩蛋
 
-「熟人局」是一组适合休息时打开的创意玩法。它把 Agent 已经知道的那些小事变成插画、建议和短故事。你可以自己挑，也可以让 Agent 给你个惊喜。
+Turn what your agent remembers about you into something only you would get.
 
-## 安装
+Memory Play is an agent skill for a creative break. Pick an activity or ask for a surprise. Your agent draws on its memories of you to make a portrait, a short film trailer, or something else with details you recognize.
 
-运行下面的命令，在安装器中选择 Codex 或 Claude Code。加上 `-g` 可在不同项目中使用。
+## Install
+
+Run the command and select Codex or Claude Code in the installer. The `-g` flag makes the skill available across your projects.
 
 ```sh
 npx skills add nihaov/memory-play --skill memory-play -g
 ```
 
-试着说：
+## Play
 
-- “熟人局，给我个惊喜。”
-- “熟人局，把我的脑内世界画出来。”
-- “熟人局，给我未来的人生提十条建议。”
-- “熟人局，把我最近的日子拍成一部冷幽默纪录片。”
-- “熟人局，根据你对我的记忆，给我画一幅肖像画。”
+Try `memory-play list` to see every activity or `memory-play random` to draw one. You can also invoke `memory-play` and name the activity you want.
 
-随机抽取或点名时，熟人局会先亮出选中玩法的提示词，再给你结果。比如抽中「脑内世界」时会看到：
+| Activity | What your agent creates |
+| --- | --- |
+| Ten Notes for Your Future | Ten pieces of life advice grounded in things you care about. |
+| Your Inner World | An imagined scene that brings together a few things you've shared. |
+| Your Week, the Documentary | A dryly funny trailer that finds a thread through your recent conversations. |
+| My Portrait | A portrait that captures your habits and interests through pose, lighting, and personal details. |
 
-> **基于你对我的了解，把我脑中的世界画成一幅图画。**
+Your agent shows the chosen activity's prompt before it starts. For example, **Your Inner World** opens with this line.
 
-每个玩法都以 Agent 对用户的记忆为创作素材，当前对话可以补充细节。可用线索太少时，Agent 会请你给一两个关键词。画图玩法需要宿主提供图像工具，纯文本环境会生成生图提示词。
+> **Based on what you know about me, paint a picture of the world inside my head.**
 
-## 更新玩法
+Every activity starts from the agent's available memories of you. The current conversation can fill in details. If there is too little to work with, your agent can ask for a cue or two. In a text-only host, image activities return a ready-to-use image prompt.
 
-公开玩法写在 [docs/catalog.json](docs/catalog.json)，由 [GitHub Pages](https://nihaov.github.io/memory-play/catalog.json) 发布。每次打开熟人局都会尝试读取最新版，网络受限时会用随包安装的入门玩法。目录请求只下载公开玩法，用户的个人上下文由各自的 Agent 使用。
+## Update the activities
 
-新增玩法时，在目录中加入唯一的 `id`、中英文 `title`、要高亮展示的中英文 `user_prompt`，以及指导 Agent 创作的 `prompt`。玩法更新在 Pages 部署后生效。若修改了 Skill 本身，使用 `npx skills update` 更新安装的版本。
+The public catalog lives in [`docs/catalog.json`](docs/catalog.json) and is [served by GitHub Pages](https://nihaov.github.io/memory-play/catalog.json). The skill fetches it when you open Memory Play and uses the bundled catalog if the online version is unavailable. The catalog contains public activity descriptions. Your own agent supplies the personal context.
+
+To add an activity, give it a unique `id`, a bilingual `title` and `user_prompt`, and a `prompt` with creative direction. Catalog changes are available after Pages deploys. When the skill itself changes, run `npx skills update memory-play`.

@@ -1,0 +1,38 @@
+[English](README.md)
+
+# 记忆彩蛋 · Memory Play
+
+用 Agent 记得的事，玩点只有你才懂的。
+
+「记忆彩蛋」是一个适合休息时打开的创意 Skill。你可以点名想玩的项目，也可以随机抽一个。Agent 会把它记得的那些小事，变成一幅肖像、一支纪录片预告，或一份只适合你的建议。
+
+## 安装
+
+运行下面的命令，在安装器里选择 Codex 或 Claude Code。加上 `-g` 可以在不同项目里使用。
+
+```sh
+npx skills add nihaov/memory-play --skill memory-play -g
+```
+
+## 开玩
+
+输入 `memory-play list` 查看所有玩法，或者用 `memory-play random` 抽一个。也可以直接跟 Agent 说「用 memory-play 给我画一幅肖像画」。
+
+| 玩法 | 你会得到什么 |
+| --- | --- |
+| 未来的十条建议 | 从你在意的事和做过的选择出发，给未来的你十条人生建议。 |
+| 脑内世界 | 把你聊过的几个真实细节画进同一个想象场景。 |
+| 我的一周纪录片 | 从近期聊天中找到一条线索，剪成一支冷幽默纪录片预告。 |
+| 我的肖像画 | 把你的气质、习惯和在意的事画进人物的姿态、光线和细节。 |
+
+Agent 会先亮出选中玩法的提示词，再开始创作。抽中「脑内世界」时，你会看到这句。
+
+> **基于你对我的了解，把我脑中的世界画成一幅图画。**
+
+每个玩法都以 Agent 可用的用户记忆为创作素材，当前对话可以补充细节。线索太少时，Agent 可以请你给一两个关键词。纯文本环境会给你一段可直接使用的生图提示词。
+
+## 更新玩法
+
+公开玩法写在 [`docs/catalog.json`](docs/catalog.json)，由 [GitHub Pages](https://nihaov.github.io/memory-play/catalog.json) 发布。每次打开「记忆彩蛋」，Skill 都会尝试读取最新版。在线目录无法访问时，会使用随包安装的玩法库。目录里只有公开的玩法描述，你的个人素材由自己的 Agent 使用。
+
+新增玩法时，填写唯一的 `id`、中英文 `title` 和 `user_prompt`，以及指导创作的 `prompt`。目录在 Pages 部署后更新。更新 Skill 本身时，可以运行 `npx skills update memory-play`。

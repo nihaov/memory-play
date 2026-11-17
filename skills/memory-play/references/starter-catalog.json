@@ -7,6 +7,10 @@
         "zh": "未来的十条建议",
         "en": "Ten Notes for Your Future"
       },
+      "user_prompt": {
+        "zh": "根据你对我的认识，给未来的我十条人生建议。",
+        "en": "Based on what you know about me, give my future self ten pieces of life advice."
+      },
       "prompt": "Write ten brief suggestions for the user's future. Ground them in concrete choices, interests, or recurring themes the user has actually shared. Vary the scope from small experiments to bigger choices. Keep the tone candid and curious, and make the reasoning recognizable to the user."
     },
     {
@@ -15,6 +19,10 @@
         "zh": "脑内世界",
         "en": "Your Inner World"
       },
+      "user_prompt": {
+        "zh": "基于你对我的了解，把我脑中的世界画成一幅图画。",
+        "en": "Based on what you know about me, paint a picture of the world inside my head."
+      },
       "prompt": "Turn three to five details the user has actually shared into visual elements in one coherent imaginary scene. Give the scene a point of view, a mood, and one unexpected connection between the elements. Generate an image if supported and give it a short title."
     },
     {
@@ -22,6 +30,10 @@
       "title": {
         "zh": "我的一周纪录片",
         "en": "Your Week, the Documentary"
+      },
+      "user_prompt": {
+        "zh": "根据我最近聊过的事，把我的一周拍成一部冷幽默纪录片的预告。",
+        "en": "Turn the things I've talked about lately into a dryly funny documentary trailer about my week."
       },
       "prompt": "Turn a few real things the user has mentioned recently into a dryly funny documentary trailer. Deliver a title, three shots, and one line of narration. Keep the exaggeration recognizably fictional and avoid assigning events to a particular week unless the timing is known."
     }

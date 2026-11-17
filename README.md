@@ -1,6 +1,6 @@
 [简体中文](README.zh-CN.md)
 
-# Memory Play · 记忆彩蛋
+# Memory Play
 
 Turn what your agent remembers about you into something only you would get.
 

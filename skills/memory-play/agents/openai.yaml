@@ -1,0 +1,4 @@
+interface:
+  display_name: "熟人局"
+  short_description: "用 Agent 对你的记忆，玩点只有你才懂的"
+  default_prompt: "用 $memory-play 给我一个贴合近况的惊喜。"

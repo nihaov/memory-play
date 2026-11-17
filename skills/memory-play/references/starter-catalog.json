@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "id": "ten-notes",
+      "title": {
+        "zh": "未来的十条建议",
+        "en": "Ten Notes for Your Future"
+      },
+      "prompt": "Write ten brief suggestions for the user's future. Ground them in concrete choices, interests, or recurring themes the user has actually shared. Vary the scope from small experiments to bigger choices. Keep the tone candid and curious, and make the reasoning recognizable to the user."
+    },
+    {
+      "id": "inner-world",
+      "title": {
+        "zh": "脑内世界",
+        "en": "Your Inner World"
+      },
+      "prompt": "Turn three to five details the user has actually shared into visual elements in one coherent imaginary scene. Give the scene a point of view, a mood, and one unexpected connection between the elements. Generate an image if supported and give it a short title."
+    },
+    {
+      "id": "week-documentary",
+      "title": {
+        "zh": "我的一周纪录片",
+        "en": "Your Week, the Documentary"
+      },
+      "prompt": "Turn a few real things the user has mentioned recently into a dryly funny documentary trailer. Deliver a title, three shots, and one line of narration. Keep the exaggeration recognizably fictional and avoid assigning events to a particular week unless the timing is known."
+    }
+  ]
+}
